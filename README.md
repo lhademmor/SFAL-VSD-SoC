@@ -32,3 +32,105 @@ $ sudo apt install gtkwave
 
 <img width="800" alt="gtkwave1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Screenshot%20from%202024-12-13%2017-24-54.png">
 </details>
+
+<details>
+<summary>Day 1 - Introduction to Verilog RTL Design and Synthesis</summary>
+
+# Day 1 - Introduction to Verilog RTL Design and Synthesis
+## Introduction to open-source simulator Iverilog
+
+Folder structure of the git clone:
+- `lib` - will contain sky130 standard cell library
+- `my_lib/verilog_models` - will contain standard cell verilog model
+- `verilog_files` -contains the lab experiments source files
+
+<img width="762" alt="intro_iverilog" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/iVerilog_intro.png">
+
+
+Example of a design good_mux.v 
+
+```
+module good_mux (input i0 , input i1 , input sel , output reg y);
+always @ (*)
+begin
+	if(sel)
+		y <= i1;
+	else 
+		y <= i0;
+end
+endmodule
+```
+Example of a testbench tb_good_mux.v 
+
+```
+`timescale 1ns / 1ps
+module tb_good_mux;
+	// Inputs
+	reg i0,i1,sel;
+	// Outputs
+	wire y;
+
+        // Instantiate the Unit Under Test (UUT)
+	good_mux uut (
+		.sel(sel),
+		.i0(i0),
+		.i1(i1),
+		.y(y)
+	);
+
+	initial begin
+	$dumpfile("tb_good_mux.vcd");
+	$dumpvars(0,tb_good_mux);
+	// Initialize Inputs
+	sel = 0;
+	i0 = 0;
+	i1 = 0;
+	#300 $finish;
+	end
+
+always #75 sel = ~sel;
+always #10 i0 = ~i0;
+always #55 i1 = ~i1;
+endmodule
+```
+Command to run the design and testbench
+```
+$iverilog good_mux.v tb_good_mux.v
+```
+The output of the iverilog is first an a.out. By running/executing $vvp a.out iverilog dump the vcd file.
+...
+$vvp a.out
+...
+
+## Introduction to GTKWave
+gtkwave will be used to generate the waveforms and display in visual format.
+
+Command to view the vcd file in gtkwave 
+```
+$gtkwave tb_good_mux.vcd
+```
+The waveform in gtwave is shown below
+
+<img width="800" alt="lab1-gtkwave" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Screenshot%20from%202024-12-13%2016-00-59.png">
+
+## Introduction to Yosys
+It is the synthesizer used to convert RTL to netlist.
+Netlist should be the same as the Design but represented in the form of standard cells.
+The same testbench can be used to verify RTL and Synthesized Netlist.
+
+<img width="800" alt="intro_yosys" src="https://github.com/sukanyasmeher/sfal-vsd/assets/166566124/0920be6f-770d-447d-a2cf-eaf73280539e">
+
+## Introduction to Logic Synthesis
+
+<img width="611" alt="intro_logic_synthesis1" src="https://github.com/sukanyasmeher/sfal-vsd/assets/166566124/d01c7771-7bb7-42cd-b7a1-24472ca61226">
+
+## Lab using Yosys and Sky130 PDKs
+<img width="736" alt="yosyslab1" src="https://github.com/sukanyasmeher/sfal-vsd/assets/166566124/81628bfa-c5b4-4715-bd30-ccc5dc97f789">
+
+<img width="730" alt="yosyslab2" src="https://github.com/sukanyasmeher/sfal-vsd/assets/166566124/a62c4b4c-d1b0-4412-bfa5-11fcec22627a">
+
+<img width="727" alt="yosyslab3" src="https://github.com/sukanyasmeher/sfal-vsd/assets/166566124/a96c3730-0071-49c2-b2f9-d61f9640ba20">
+
+<img width="636" alt="show_logic" src="https://github.com/sukanyasmeher/sfal-vsd/assets/166566124/19d70533-9d4e-4cec-81c5-7ad2fafc381f">
+
+</details>
