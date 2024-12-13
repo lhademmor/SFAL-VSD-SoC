@@ -53,10 +53,10 @@ Example of a design good_mux.v
 module good_mux (input i0 , input i1 , input sel , output reg y);
 always @ (*)
 begin
-	if(sel)
-		y <= i1;
-	else 
-		y <= i0;
+  if(sel)
+    y <= i1;
+  else 
+    y <= i0;
 end
 endmodule
 ```
@@ -65,28 +65,28 @@ Example of a testbench tb_good_mux.v
 ```
 `timescale 1ns / 1ps
 module tb_good_mux;
-	// Inputs
-	reg i0,i1,sel;
-	// Outputs
-	wire y;
+  // Inputs
+  reg i0,i1,sel;
+  // Outputs
+  wire y;
 
-        // Instantiate the Unit Under Test (UUT)
-	good_mux uut (
-		.sel(sel),
-		.i0(i0),
-		.i1(i1),
-		.y(y)
-	);
+  // Instantiate the Unit Under Test (UUT)
+  good_mux uut (
+    .sel(sel),
+    .i0(i0),
+    .i1(i1),
+    .y(y)
+  );
 
-	initial begin
-	$dumpfile("tb_good_mux.vcd");
-	$dumpvars(0,tb_good_mux);
-	// Initialize Inputs
-	sel = 0;
-	i0 = 0;
-	i1 = 0;
-	#300 $finish;
-	end
+initial begin
+  $dumpfile("tb_good_mux.vcd");
+  $dumpvars(0,tb_good_mux);
+  // Initialize Inputs
+  sel = 0;
+  i0 = 0;
+  i1 = 0;
+  #300 $finish;
+end
 
 always #75 sel = ~sel;
 always #10 i0 = ~i0;
@@ -97,10 +97,13 @@ Command to run the design and testbench
 ```
 $iverilog good_mux.v tb_good_mux.v
 ```
-The output of the iverilog is first an a.out. By running/executing $vvp a.out iverilog dump the vcd file.
+The output of the iverilog is first an a.out. By running/executing vvp a.out iverilog dump the vcd file.
 ...
 $vvp a.out
 ...
+
+<img width="800" alt="lab1-gtkwave" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/iverilog_good_mux.png">
+
 
 ## Introduction to GTKWave
 gtkwave will be used to generate the waveforms and display in visual format.
