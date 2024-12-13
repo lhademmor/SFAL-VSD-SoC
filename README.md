@@ -21,7 +21,7 @@ $ sudo make install
 ```
 $ sudo apt-get install iverilog
 ```
-<img width="702" alt="iverilog" src="https://github.com/sukanyasmeher/sfal-vsd/assets/166566124/e660c9fc-0d6d-4ab7-b75f-9992133771ef">
+<img width="702" alt="iverilog" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Screenshot%20from%202024-12-13%2017-21-42.png">
 
 ## GTKWave
 ```
