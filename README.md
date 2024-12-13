@@ -28,7 +28,7 @@ $ sudo apt-get install iverilog
 $ sudo apt update
 $ sudo apt install gtkwave
 ```
-<img width="604" alt="gtkwave2" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Screenshot%20from%202024-12-13%2017-25-59.png">
+<img width="700" alt="gtkwave2" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Screenshot%20from%202024-12-13%2017-25-59.png">
 
 <img width="1008" alt="gtkwave1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Screenshot%20from%202024-12-13%2017-24-54.png">
 </details>
