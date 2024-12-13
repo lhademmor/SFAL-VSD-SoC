@@ -97,7 +97,7 @@ Command to run the design and testbench
 ```
 $iverilog good_mux.v tb_good_mux.v
 ```
-The output of the iverilog is first an a.out. By running/executing vvp a.out iverilog dump the vcd file.
+The output of the iverilog is first an a.out. By running/executing vvp a.out, iverilog dump the vcd file.
 ...
 $vvp a.out
 ...
@@ -114,7 +114,7 @@ $gtkwave tb_good_mux.vcd
 ```
 The waveform in gtwave is shown below
 
-<img width="800" alt="lab1-gtkwave" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Screenshot%20from%202024-12-13%2016-00-59.png">
+<img width="800" alt="lab1-gtkwave" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/gtkwave_good_mux.png">
 
 ## Introduction to Yosys
 It is the synthesizer used to convert RTL to netlist.
