@@ -30,7 +30,7 @@ $ sudo apt install gtkwave
 ```
 <img width="800" alt="gtkwave2" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/gtkwave_1st_run.png">
 
-<img width="800" alt="gtkwave1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Screenshot%20from%202024-12-13%2017-24-54.png">
+<img width="800" alt="gtkwave1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/screen_gtkwave_1st_run.png">
 </details>
 
 <details>
@@ -44,7 +44,7 @@ Folder structure of the git clone:
 - `my_lib/verilog_models` - will contain standard cell verilog model
 - `verilog_files` -contains the lab experiments source files
 
-<img width="762" alt="intro_iverilog" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/iVerilog_intro.png">
+<img width="800" alt="intro_iverilog" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/iVerilog_intro.png">
 
 
 Example of a design good_mux.v 
