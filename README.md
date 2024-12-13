@@ -21,14 +21,14 @@ $ sudo make install
 ```
 $ sudo apt-get install iverilog
 ```
-<img width="800" alt="iverilog" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Screenshot%20from%202024-12-13%2017-21-42.png">
+<img width="800" alt="iverilog" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/iverilog_1st_run.png">
 
 ## GTKWave
 ```
 $ sudo apt update
 $ sudo apt install gtkwave
 ```
-<img width="800" alt="gtkwave2" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Screenshot%20from%202024-12-13%2017-25-59.png">
+<img width="800" alt="gtkwave2" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/gtkwave_1st_run.png">
 
 <img width="800" alt="gtkwave1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Screenshot%20from%202024-12-13%2017-24-54.png">
 </details>
