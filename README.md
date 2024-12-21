@@ -125,15 +125,52 @@ The same testbench can be used to verify RTL and Synthesized Netlist.
 
 ## Introduction to Logic Synthesis
 
-<img width="611" alt="intro_logic_synthesis1" src="https://github.com/sukanyasmeher/sfal-vsd/assets/166566124/d01c7771-7bb7-42cd-b7a1-24472ca61226">
+<img width="800" alt="intro_logic_synthesis1" src="https://github.com/sukanyasmeher/sfal-vsd/assets/166566124/d01c7771-7bb7-42cd-b7a1-24472ca61226">
 
 ## Lab using Yosys and Sky130 PDKs
-<img width="736" alt="yosyslab1" src="https://github.com/sukanyasmeher/sfal-vsd/assets/166566124/81628bfa-c5b4-4715-bd30-ccc5dc97f789">
 
-<img width="730" alt="yosyslab2" src="https://github.com/sukanyasmeher/sfal-vsd/assets/166566124/a62c4b4c-d1b0-4412-bfa5-11fcec22627a">
+<img width="800" alt="yosyslab1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Yosys Read_Liberty 001.png">
 
-<img width="727" alt="yosyslab3" src="https://github.com/sukanyasmeher/sfal-vsd/assets/166566124/a96c3730-0071-49c2-b2f9-d61f9640ba20">
+<img width="800" alt="yosyslab1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Yosys Read_Liberty 002.png">
 
-<img width="636" alt="show_logic" src="https://github.com/sukanyasmeher/sfal-vsd/assets/166566124/19d70533-9d4e-4cec-81c5-7ad2fafc381f">
+<img width="800" alt="yosyslab1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Yosys Read_Liberty 003.png">
+
+<img width="800" alt="yosyslab1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Yosys Read_Liberty 004.png">
+
+<img width="800" alt="yosyslab1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Yosys Read_Liberty 005.png">
+
+<img width="800" alt="yosyslab1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Yosys Read_Liberty 006.png">
+
+<img width="800" alt="yosyslab1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Yosys Read_Liberty 007.png">
+
+<img width="800" alt="yosyslab1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Yosys Read_Liberty 008.png">
+
+<img width="800" alt="yosyslab1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Yosys Read_Liberty 009.png">
+
+<img width="800" alt="yosyslab1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Yosys Read_Liberty 010.png">
+
+<img width="800" alt="yosyslab1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Yosys Read_Liberty 011.png">
+
+<img width="800" alt="yosyslab1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Yosys Read_Liberty 012.png">
+
+<img width="800" alt="yosyslab1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Yosys Read_Liberty 013.png">
+
+<img width="800" alt="yosyslab1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Yosys Read_Liberty 014.png">
+
+<img width="800" alt="yosyslab1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Yosys Read_Liberty 015.png">
+
+<img width="800" alt="yosyslab1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Yosys Read_Liberty 016.png">
+
+<img width="800" alt="yosyslab1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Yosys Read_Liberty 017.png">
+
+<img width="800" alt="yosyslab1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Yosys Read_Liberty 018.png">
+
+<img width="800" alt="yosyslab1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Yosys Read_Liberty 019.png">
+
+<img width="800" alt="yosyslab1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Yosys Read_Liberty 020.png">
+
+<img width="800" alt="yosyslab1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Yosys Read_Liberty 021.png">
+
+<img width="800" alt="yosyslab1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Yosys Read_Liberty 022.png">
 
 </details>
