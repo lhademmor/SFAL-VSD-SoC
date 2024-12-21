@@ -173,4 +173,6 @@ The same testbench can be used to verify RTL and Synthesized Netlist.
 
 <img width="800" alt="yosyslab1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Yosys Read_Liberty 022.png">
 
+<img width="800" alt="yosyslab1" src="https://github.com/lhademmor/SFAL-VSD-SoC/blob/main/pictures%20of%20progress/Yosys Show.png">
+
 </details>
